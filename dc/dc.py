@@ -24,4 +24,4 @@ async def ping(ctx): #ctx=context 上下文
     await ctx.send(f'{round(bot.latency*1000)} ms')
     
 bot.run("OTM4MDExNDE5NTMyNzM4NTYw.YfkFNQ.253aYUt90kEOYHmxzrRrpI_oIbE")
-    
+#新的token:OTM4MDExNDE5NTMyNzM4NTYw.YfkFNQ.A_8ztZrTacOJ4R6YXLXyg7Udbgs
