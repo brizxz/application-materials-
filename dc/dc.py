@@ -11,17 +11,17 @@ async def on_ready():
     
 @bot.event
 async def on_member_join(member):
-    channel= bot.get_channel(938052826809135104) #抓取頻道
+    channel= bot.get_channel(882615406148337713) #抓取頻道
     await channel.send(f"{member} join welcome!") #用f字串因成員名字為變數
 
 @bot.event
 async def on_member_remove(member):
-    channel= bot.get_channel(938052866285928488) #抓取頻道
+    channel= bot.get_channel(882615406148337713) #抓取頻道
     await channel.send(member + " leave so sad") 
  
 @bot.command()
 async def ping(ctx): #ctx=context 上下文
     await ctx.send(f'{round(bot.latency*1000)} ms')
     
-bot.run("OTM4MDExNDE5NTMyNzM4NTYw.YfkFNQ.VlWlGv5DcJbHAZXH1n3phnq9_iE")
+bot.run("OTM4MDExNDE5NTMyNzM4NTYw.YfkFNQ.66W3jBe0ekR3y8fzynE8id1Plu0")
     
